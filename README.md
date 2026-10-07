@@ -28,10 +28,8 @@ All high-resolution visualization charts are centralized in [`visualizations/`](
 ```
 projecttt/
 ├── fraud_oracle.csv                           # Historical Insurance Claims Dataset (15,420 claims)
-├── main.py                                    # Master execution pipeline
 ├── demo_triage.py                             # Interactive claim evaluator demo
 ├── generate_metrics_report.py                 # 18+ metric evaluation engine
-├── generate_architecture_diagram.py           # High-resolution architectural diagram generator
 ├── generate_pdf_reports.py                    # Multi-page PDF report compiler (ReportLab)
 ├── visualizations/                            # Centralized high-res metric & architecture charts
 └── insurance_risk_triage/                     # Core system package
@@ -82,3 +80,4 @@ python generate_architecture_diagram.py
 # 5. Re-compile Both Production PDF Reports
 python generate_pdf_reports.py
 ```
+
